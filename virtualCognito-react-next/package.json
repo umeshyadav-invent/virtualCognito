@@ -1,0 +1,53 @@
+{
+	"name": "VirtualCognito",
+	"version": "1.2.0",
+	"description": "VirtualCognito - React Next Online Courses & Education Template",
+	"main": "index.js",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start -p 3040"
+	},
+	"author": "EnvyTheme.com",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.21.0",
+		"bcrypt": "^5.0.0",
+		"cloudinary-react": "^1.6.8",
+		"cors": "^2.8.5",
+		"js-cookie": "^2.2.1",
+		"jsonwebtoken": "^8.5.1",
+		"markdown-it": "^12.0.2",
+		"next": "^11.0.1",
+		"next-pwa": "^3.1.5",
+		"nodemailer": "^6.4.16",
+		"nodemailer-sendgrid-transport": "^0.2.0",
+		"nookies": "^2.5.0",
+		"pg": "^8.5.1",
+		"pg-hstore": "^2.3.3",
+		"react": "^17.0.2",
+		"react-accessible-accordion": "^3.3.3",
+		"react-dom": "^17.0.2",
+		"react-hook-form": "^6.12.0",
+		"react-hot-toast": "^1.0.1",
+		"react-image-lightbox": "^5.1.1",
+		"react-modal-video": "^1.2.6",
+		"react-owl-carousel3": "^2.2.5",
+		"react-select": "^3.1.1",
+		"react-stripe-checkout": "^2.6.3",
+		"react-tabs": "^3.1.1",
+		"react-toast-notifications": "^2.4.0",
+		"reactstrap": "^8.7.1",
+		"sass": "^1.28.0",
+		"sequelize": "^6.3.5",
+		"stripe": "^8.132.0",
+		"sweetalert2": "^10.10.4",
+		"sweetalert2-react-content": "^3.2.2",
+		"uuid": "^8.3.1",
+		"uuid-validate": "0.0.3",
+		"validator": "^13.1.17"
+	},
+	"devDependencies": {
+		"sequelize-cli": "^6.2.0"
+	}
+}
